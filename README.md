@@ -1,4 +1,4 @@
-# rice-bot
+# RiceBot 大米机器人
 ## 功能介绍
 大米机器人实现了QQ官方机器人API，封装为了`rice-bot-sdk`，同时封装了插件接口，开发者可依赖`rice-bot-sdk`，实现`RiceBotPlugin`接口实现自己的机器人功能，将打包产物放在`rice-bot-x.x.x/plugins`目录下，重启机器人即可实现在不修改机器人本体的情况下添加插件功能
 
@@ -23,5 +23,5 @@ rice-bot-x.x.x
 4. 克隆项目，在项目根目录下执行 mvn package，打包产物的路径为 `dist/rice-bot-x.x.x`
 5. 启动项目
    - Windows 用户双击 `start.bat` 启动项目
-   - Linux 用户执行 `sh start.sh 启动项目`
+   - Linux 用户执行 `sh start.sh` 启动项目
 > Windows下环境变量配置在系统中，Linux环境变量填写在 start.sh 中
