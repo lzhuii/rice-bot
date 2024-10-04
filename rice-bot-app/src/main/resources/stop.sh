@@ -1,0 +1,1 @@
+ps -ef | grep rice-bot | grep -v grep | awk '{print $2}' | xargs kill

@@ -1,0 +1,16 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    property-naming-strategy: SNAKE_CASE
+    serialization:
+      fail-on-empty-beans: false
+    deserialization:
+      fail-on-unknown-properties: false
+
+  data:
+    redis:
+      host: 127.0.0.1
+
+logging:
+  file:
+    name: ./log/rice-bot.log
